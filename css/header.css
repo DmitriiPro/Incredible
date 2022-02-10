@@ -1,0 +1,117 @@
+.container-black {
+	width: 329px;
+	height: 800px;
+	background-color: var(--main-color);
+	padding: 50px 0;
+	color: var(--white);
+}
+
+.header__containers {
+	display: flex;
+	flex-direction: row;
+}
+
+.header-black__title {
+	margin: 0;
+	margin-bottom: 60px;
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 25px;
+	color: var(--red);
+	text-align: center;
+	padding-top: 156px;
+}
+
+.header-black__list {
+	text-align: center;
+	padding: 19px 0 21px 0;
+}
+
+.header-black__item {
+	margin-bottom: 40px;
+}
+
+.header-black__item:last-child {
+	margin-bottom: 0;
+}
+
+.header-black__item:first-child {
+	color: var(--red);
+}
+
+.header-black__item-link {
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+/* правый блок */
+.container {
+	width: 1111px;
+	background-image: url('../img/present-img-girl.jpg');
+	background-repeat: no-repeat;
+	padding: 50px 0;
+} 
+
+.header__wrapper {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding-top: 255px;
+	position: relative;
+}
+
+.header__title {
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 44px;
+	color: var(--white);
+	width: 621px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.header__subtitle {
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: var(--white);
+	position: absolute;
+	bottom: -8px;
+}
+
+.header__link-white,
+.header__link-red {
+	font-family: Oswald;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: var(--white);
+	padding: 11px 22px 15px 22px;
+	border-radius: 4px;
+	
+}
+
+.header__links {
+	padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header__link-white {
+	background-color: transparent;
+	border: 2px solid var(--white);
+}
+
+.header__link-red {
+	background-color: var(--red);
+	border: 2px solid var(--red);
+}
