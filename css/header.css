@@ -11,7 +11,7 @@
 	flex-direction: row;
 }
 
-.header-black__title {
+.header__black-title {
 	margin: 0;
 	margin-bottom: 60px;
 	font-family: Oswald;
@@ -23,24 +23,24 @@
 	padding-top: 156px;
 }
 
-.header-black__list {
+.header__black-list {
 	text-align: center;
 	padding: 19px 0 21px 0;
 }
 
-.header-black__item {
+.header__black-item {
 	margin-bottom: 40px;
 }
 
-.header-black__item:last-child {
+.header-black-item:last-child {
 	margin-bottom: 0;
 }
 
-.header-black__item:first-child {
+.header-black-item:first-child {
 	color: var(--red);
 }
 
-.header-black__item-link {
+.header__black-item-link {
 	font-family: Oswald;
 	font-weight: 400;
 	font-size: 14px;
