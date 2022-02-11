@@ -1,0 +1,146 @@
+.containers {
+	display: flex;
+	flex-direction: row;
+}
+
+.container-heading {
+	width: 329px;
+	background-color: var(--main-color);
+}
+
+.container-right {
+	width: 1111px;
+	background-color: var(--white);
+}
+
+.heading__title {
+	font-weight: 400;
+	font-size: 31px;
+	line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+	padding-top: 63px;
+}
+
+.heading__element {
+	font-family: Droid Sans;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 30px;
+	text-align: center;
+	color: rgba(115, 115, 115, 0.74);
+	margin-bottom: 62px;
+}
+
+.heading__list {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 63px;
+}
+
+.heading__item {
+	max-width: 240px;
+	position: relative;
+}
+
+.heading__camera:before {
+	content: "";
+	background-image: url('../img/heading__camera.svg');
+	width: 100px;
+	height: 100px; 
+	background-repeat: no-repeat; 
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.heading__kvadrat:before {
+	content: "";
+	background-image: url('../img/heading__kvadrat.svg');
+	width: 100px;
+	height: 100px; 
+	background-repeat: no-repeat; 
+	top: 0;
+	left: 0;
+	position: absolute
+}
+
+.heading__nastroiki::before {
+	content: "";
+	background-image: url('../img/heading__nastroiki.svg');
+	width: 100px;
+	height: 100px; 
+	background-repeat: no-repeat; 
+	top: 0;
+	left: 0;
+	position: absolute
+}
+
+.heading__oblako:before {
+	content: "";
+	background-image: url('../img/heading__oblako.svg');
+	width: 100px;
+	height: 100px; 
+	background-repeat: no-repeat; 
+	top: 0;
+	left: 0;
+	position: absolute
+}
+
+.heading__subtitle-item {
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin-bottom: 11px;
+	padding-top: 119px;
+}
+
+.heading__element-item {
+	font-family: 'Droid Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: rgba(0, 0, 0, 0.74);
+	width: 237px;
+	margin-bottom: 7px;
+}
+
+.heading__item a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	color: var(--red);
+}
+
+/* //////////////////////////// */
+.block-red {
+	background-color: var(--red);
+}
+
+.block-red-wrapper {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 76px;
+}
+
+.heading__element-block-red {
+	font-weight: 400;
+	font-size: 31px;
+	line-height: 36px;
+	color: var(--white);
+}
+
+.heading__btn-block-red {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: var(--white);
+	padding: 11px 22px 15px 22px;
+	border: 2px solid var(--white);
+	border-radius: 4px;
+	background-color: transparent;
+}

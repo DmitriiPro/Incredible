@@ -1,6 +1,6 @@
 .container-black {
 	width: 329px;
-	height: 800px;
+	height: 800px; 
 	background-color: var(--main-color);
 	padding: 50px 0;
 	color: var(--white);
@@ -23,7 +23,7 @@
 	padding-top: 156px;
 }
 
-.header__black-list {
+.header__black-nav {
 	text-align: center;
 	padding: 19px 0 21px 0;
 }
@@ -32,11 +32,11 @@
 	margin-bottom: 40px;
 }
 
-.header-black-item:last-child {
+.header__black-item:last-child {
 	margin-bottom: 0;
 }
 
-.header-black-item:first-child {
+.header__black-item:first-child {
 	color: var(--red);
 }
 
@@ -51,6 +51,8 @@
 /* правый блок */
 .container {
 	width: 1111px;
+	/* height: 100vh; */
+	/* object-fit: contain; */
 	background-image: url('../img/present-img-girl.jpg');
 	background-repeat: no-repeat;
 	padding: 50px 0;
@@ -107,7 +109,6 @@
 }
 
 .header__link-white {
-	background-color: transparent;
 	border: 2px solid var(--white);
 }
 
